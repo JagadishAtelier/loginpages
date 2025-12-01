@@ -1,6 +1,6 @@
 import './App.css'
 import LoginPage from './Component/LoginPage'
-import Inventorylogin from './Component/inventorylogin'
+import Inventorylogin from './Component/Inventorylogin'
 
 import AOS from "aos";
 import "aos/dist/aos.css";
