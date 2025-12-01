@@ -51,7 +51,7 @@ export default function LoginPage() {
                 />
                 <div className="bg-blue-600 h-full aspect-square rounded-md absolute right-0 top-0 flex items-center justify-center">
                   <Mail
-                    className="absolute right-4 top-3.5 text-gray-100"
+                    className="text-gray-100"
                     size={20}
                   />
                 </div>
