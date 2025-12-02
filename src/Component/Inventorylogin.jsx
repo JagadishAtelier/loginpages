@@ -29,12 +29,12 @@ const Inventorylogin = () => {
           data-aos-delay="200"
         >
           {/* Logo */}
-          <div className="flex justify-center mb-8">
+          <div className="flex justify-center mb-6">
             <img src="/inventory_logo.svg" alt="logo" className="h-24 aspect-square" />
           </div>
 
           {/* Title */}
-          <h2 data-aos="fade-up" className="text-center text-md font-bold mb-8">
+          <h2 data-aos="fade-up" className="text-center text-md font-bold mb-6">
             Login into your account
           </h2>
 
