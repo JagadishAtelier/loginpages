@@ -9,19 +9,19 @@ const Inventorylogin = () => {
       {/* LEFT SECTION */}
       <div
         data-aos="fade-right"
-        className="hidden max-h-screen overflow-hidden lg:flex w-2/3 items-center justify-center bg-white/80"
+        className="hidden max-h-screen overflow-hidden lg:flex w-3/4 items-center justify-center bg-white/80"
       >
         <img
           src={loginIllustration}
           alt="Medical Illustration"
-          className="w-full object-contain"
+          className="max-h-screen h-[98vh] absolute bottom-0 left-0 object-contain"
         />
       </div>
 
       {/* RIGHT SECTION — slide-right */}
       <div
         data-aos="fade-left"
-        className="flex w-full lg:w-1/3 items-center justify-center px-6 lg:px-16 py-10 bg-white shadow-[-10px_0_20px_rgba(0,0,0,0.05)]"
+        className="flex w-full lg:w-1/4 max-h-screen h-screen items-center justify-center px-3 lg:px-8 lg:py-16 bg-white shadow-[-10px_0_20px_rgba(0,0,0,0.05)]"
       >
         <div
           className="w-full max-w-md"
@@ -39,7 +39,7 @@ const Inventorylogin = () => {
           </h2>
 
           {/* Form */}
-          <form className="space-y-6">
+          <form className="space-y-4">
             {/* Email */}
             <div data-aos="fade-up" data-aos-delay="100">
               <label className="text-sm font-medium">Email Address</label>
@@ -95,7 +95,7 @@ const Inventorylogin = () => {
               data-aos="fade-up"
               data-aos-delay="300"
               type="submit"
-              className="w-full py-3 rounded-lg bg-linear-to-r from-[#003893] to-[#005FF9] text-white font-semibold  shadow-lg shadow-blue-200 transition-all duration-500 ease-in-out hover:bg-linear-to-l"
+              className="w-full py-2.5 rounded-lg bg-linear-to-r from-[#003893] to-[#005FF9] text-white font-medium  shadow-lg shadow-blue-200 transition-all duration-500 ease-in-out hover:bg-linear-to-l"
             >
               Login Now
             </button>
@@ -114,7 +114,7 @@ const Inventorylogin = () => {
             {/* Signup Button */}
             <button
               type="button"
-              className="w-full py-3 rounded-lg border border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition"
+              className="w-full py-2.5 rounded-lg border border-blue-600 text-blue-600 font-medium hover:bg-blue-50 transition"
             >
               Signup Now
             </button>
